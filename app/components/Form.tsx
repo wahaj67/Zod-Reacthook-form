@@ -50,6 +50,7 @@ function Form() {
             type="email"
             placeholder="Email"
             name="email"
+            
             register={register}
             error={errors.email}
           />

@@ -13,6 +13,7 @@ const FormField: React.FC<FormFieldProps> = ({
       type={type}
       placeholder={placeholder}
       {...register(name, { valueAsNumber })}
+      className="bg-white text-black"
     />
     {error && <span className="error-message">{error.message}</span>}
   </>
