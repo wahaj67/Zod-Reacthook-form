@@ -42,7 +42,7 @@ function Form() {
 
   return (
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className="grid col-auto">
+        <div className="grid  col-auto">
           <h1 className="text-3xl font-semibold mb-4 text-black animate-pulse" >
             Zod & React-Hook-Form 
           </h1>
@@ -87,7 +87,7 @@ function Form() {
             register={register}
             error={errors.confirmPassword}
           />
-          <button type="submit" className="submit-button">
+          <button type="submit" className="bg-blue-500 px-4 py-2 rounded-full transition duration-1000 text-white hover:text-black hover:bg-blue-700">
             Submit
           </button>
         </div>
